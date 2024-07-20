@@ -75,7 +75,7 @@
     margin-top: 20px;
     font-size: 38px;
     background-color: #F1F8E8;
-      color: white;
+      /* color: white; */
   text-align: center;
   padding: 10px;
    border-radius: 20px;   
@@ -147,4 +147,10 @@ tr > th {
 }
 #absent{
     background-color: red;
+}
+
+#error {
+    background: #ffc2c2;
+    padding: 5px;
+    border-radius: 10px 10px 0px 0px;
 }

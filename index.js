@@ -9,7 +9,10 @@ function submitFun(elme) {
     if(username == "ghous" &&  password == "ahmed") {
         window.location.href = "student.html";
     } else {
-        alert("Invalid username or Password");
-        document.querySelector("#form").reset();
+       let error = document.getElementById("error");
+        error.classList.add('d-block')
+        error.classList.remove('d-none')
+        error.innerHTML = "Invalid username or password";
+        // document.querySelector("#form").reset();
     }
 }
